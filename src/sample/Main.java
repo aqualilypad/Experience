@@ -1,5 +1,5 @@
 package sample;
-
+// i can edit but forgot how to um, comment
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
