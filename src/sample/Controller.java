@@ -29,6 +29,7 @@ public class Controller {
 //    public void displayImage(){
 //        myImageView.setImage(apple);
 //    }
+    //ignore this
 
     public void switchToScene1(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Scene1.fxml"));
