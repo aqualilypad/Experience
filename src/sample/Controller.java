@@ -23,7 +23,7 @@ public class Controller {
     ImageView myImageView;
     Button myButton;
 
-//    Image apple = new Image(getClass().getResourceAsStream("three.JPG"));
+//    Image apple = new Image(getClass().getResourceAsStream("apple3.JPG"));
 //
 //    public void displayImage(){
 //        myImageView.setImage(apple);
@@ -56,6 +56,22 @@ public class Controller {
 
     public void switchToScene4(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene4.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void switchToScene5(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene5.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void switchToScene6(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene6.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

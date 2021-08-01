@@ -33,17 +33,17 @@
       </MenuBar>
       <ImageView fitHeight="522.0" fitWidth="937.0" layoutX="-3.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../image/apple3.JPG" />
+            <Image url="@../../image/Sports2.JPG" />
          </image>
       </ImageView>
-      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene4" prefHeight="66.0" prefWidth="182.0" text="next">
+      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene7" prefHeight="66.0" prefWidth="182.0" text="next">
          <font>
             <Font size="38.0" />
          </font>
       </Button>
-      <Text layoutX="36.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your neighbor, also your best friend, Sara, peaks over your shoulders and sees your work: “ I think you did it wrong, you are supposed to distinguish the green apples from these red apples.”She handed over her worksheet to you. " wrappingWidth="857.86474609375">
+      <Text layoutX="57.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Today, as a member of the highschool basketball team, you compete with someone outside of your school for the first time. The game is tied. With 1 minute left in the game, your team needs one last point to win the game. " wrappingWidth="803.6408081054688">
          <font>
-            <Font size="26.0" />
+            <Font size="29.0" />
          </font>
       </Text>
    </children>

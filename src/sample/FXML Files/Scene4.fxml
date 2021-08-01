@@ -33,10 +33,10 @@
       </MenuBar>
       <ImageView fitHeight="522.0" fitWidth="937.0" layoutX="-3.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../image/three.JPG" />
+            <Image url="@../../image/apple3.JPG" />
          </image>
       </ImageView>
-      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="182.0" text="next">
+      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene5" prefHeight="66.0" prefWidth="182.0" text="next">
          <font>
             <Font size="38.0" />
          </font>

@@ -37,7 +37,7 @@
         </MenuBar>
       <ImageView fitHeight="518.0" fitWidth="952.0" layoutX="-10.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../image/one.JPG" />
+            <Image url="@../../image/apple1.JPG" />
          </image>
       </ImageView>
         <Button layoutX="729.0" layoutY="451.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="51.0" prefWidth="147.0" text="next">
