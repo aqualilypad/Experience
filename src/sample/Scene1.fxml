@@ -37,22 +37,17 @@
         </MenuBar>
       <ImageView fitHeight="518.0" fitWidth="952.0" layoutX="-10.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../image/hackathon.JPG" />
+            <Image url="@../image/one.JPG" />
          </image>
       </ImageView>
-        <Button layoutX="35.0" layoutY="449.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="163.0" text="Left">
-            <font>
-                <Font size="36.0" />
-            </font>
-        </Button>
-        <Button layoutX="729.0" layoutY="451.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="147.0" text="Right">
+        <Button layoutX="729.0" layoutY="451.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="51.0" prefWidth="147.0" text="next">
             <font>
                 <Font size="38.0" />
             </font>
         </Button>
-        <Text layoutX="62.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="857.86474609375">
+        <Text layoutX="38.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your elementary school teacher hands you a handout with pictures of apples on it. The sample illustration has one apple crossed out and another that is not. The instruction is to cross out the apple that doesn't belong." wrappingWidth="857.86474609375">
             <font>
-                <Font size="33.0" />
+                <Font size="24.0" />
             </font>
         </Text>
     </children>
