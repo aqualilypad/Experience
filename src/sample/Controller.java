@@ -23,7 +23,7 @@ public class Controller {
     ImageView myImageView;
     Button myButton;
 
-//    Image apple = new Image(getClass().getResourceAsStream("hackathon1.JPG"));
+//    Image apple = new Image(getClass().getResourceAsStream("three.JPG"));
 //
 //    public void displayImage(){
 //        myImageView.setImage(apple);
@@ -31,7 +31,7 @@ public class Controller {
     //ignore this
 
     public void switchToScene1(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("Scene1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene1.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
@@ -39,7 +39,7 @@ public class Controller {
     }
 
     public void switchToScene2(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("Scene2.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene2.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
@@ -47,7 +47,15 @@ public class Controller {
     }
 
     public void switchToScene3(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("Scene3.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene3.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void switchToScene4(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene4.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
