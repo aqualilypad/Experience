@@ -7,6 +7,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ProgressBar;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
@@ -30,7 +31,12 @@ public class Controller {
 //        myImageView.setImage(apple);
 //    }
     //ignore this
-
+    ProgressBar pb = new ProgressBar();
+    happycount h = new happycount();
+    public void initialize() {
+    	h.happyDec(false);
+    }
+    
     public void switchToScene1(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Scene1.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
