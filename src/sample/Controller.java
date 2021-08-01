@@ -1,10 +1,14 @@
 package sample;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -15,6 +19,16 @@ public class Controller {
     private Stage stage;
     private Scene scene;
     private Parent root;
+
+    @FXML
+    ImageView myImageView;
+    Button myButton;
+
+//    Image apple = new Image(getClass().getResourceAsStream("hackathon1.JPG"));
+//
+//    public void displayImage(){
+//        myImageView.setImage(apple);
+//    }
 
     public void switchToScene1(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Scene1.fxml"));
