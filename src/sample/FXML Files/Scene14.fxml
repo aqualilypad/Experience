@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="732.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SportsController">
+    <children>
+        <MenuBar layoutX="-2.0" prefHeight="27.0" prefWidth="932.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Chapters">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Setting">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Review ">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ImageView fitHeight="522.0" fitWidth="937.0" layoutX="-3.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../image/doctor3.JPG" />
+            </image></ImageView>
+      <ScrollPane layoutX="-5.0" layoutY="544.0" prefHeight="196.0" prefWidth="942.0">
+         <content>
+              <Text lineSpacing="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He sighed, and explained what color blindness is: “color blindness is the decreased ability to see color or differences in color. ““It can impair tasks such as selecting ripe fruit, choosing clothing, and reading traffic lights, where you probably have already experienced in your life.”“This is in fact caused by inheritance, so it is never your fault for being colorblind.” He said in his calm voice. “Colorblind people should not see themselves as faulty because they confuse their colors, nor should normal people see colorblind people that way. This is innate, the same as your gender: there is no way to change this. Colorblind people should be treated equally as others.”" textAlignment="CENTER" wrappingWidth="905.9594407081604">
+                  <font>
+                      <Font size="27.0" />
+                  </font>
+              </Text>
+         </content>
+      </ScrollPane>
+    </children>
+</AnchorPane>

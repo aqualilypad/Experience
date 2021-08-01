@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
@@ -34,46 +33,16 @@
         </MenuBar>
         <ImageView fitHeight="522.0" fitWidth="937.0" layoutX="-3.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../image/doctor2.JPG" />
+                <Image url="@../../image/doctor1.JPG" />
             </image></ImageView>
-        <Text layoutX="47.0" layoutY="608.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Colorblindness test: click on the ones you can recongize " wrappingWidth="536.8104515075684">
+        <Text layoutX="47.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You took a deep breath as the doctor handed you the results. “You have a vision deficiency called protanopia. Or more commonly known as color blindness.” He said, leaving you in shock, even though you thought you came prepared. " wrappingWidth="865.8417625427246">
             <font>
-                <Font size="28.0" />
+                <Font size="26.0" />
             </font>
         </Text>
-      <CheckBox layoutX="179.0" layoutY="182.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="48.0">
+      <Button layoutX="719.0" layoutY="450.0" mnemonicParsing="false" onAction="#switchToScene14" prefHeight="68.0" prefWidth="167.0" text="next">
          <font>
-            <Font size="29.0" />
-         </font>
-      </CheckBox>
-      <CheckBox layoutX="437.0" layoutY="188.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="48.0">
-         <font>
-            <Font size="29.0" />
-         </font>
-      </CheckBox>
-      <CheckBox layoutX="182.0" layoutY="420.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="48.0">
-         <font>
-            <Font size="29.0" />
-         </font>
-      </CheckBox>
-      <CheckBox layoutX="709.0" layoutY="420.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="48.0">
-         <font>
-            <Font size="29.0" />
-         </font>
-      </CheckBox>
-      <CheckBox layoutX="446.0" layoutY="421.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="48.0">
-         <font>
-            <Font size="29.0" />
-         </font>
-      </CheckBox>
-      <CheckBox layoutX="707.0" layoutY="183.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="48.0">
-         <font>
-            <Font size="29.0" />
-         </font>
-      </CheckBox>
-      <Button layoutX="702.0" layoutY="587.0" mnemonicParsing="false" onAction="#switchToScene13" prefHeight="94.0" prefWidth="183.0" text="Done">
-         <font>
-            <Font size="24.0" />
+            <Font size="36.0" />
          </font>
       </Button>
     </children>

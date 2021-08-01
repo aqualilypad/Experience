@@ -35,7 +35,7 @@
             <image>
                 <Image url="@../../image/doctor1.JPG" />
             </image></ImageView>
-        <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene8" prefHeight="66.0" prefWidth="182.0" text="next">
+        <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene12" prefHeight="66.0" prefWidth="182.0" text="next">
             <font>
                 <Font size="38.0" />
             </font>

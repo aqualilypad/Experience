@@ -60,5 +60,41 @@ public class SportsController {
         stage.setScene(scene);
         stage.show();
     }
+
+    public void switchToScene10(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene10.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void switchToScene11(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene11.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void switchToScene12(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene12.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void switchToScene13(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene13.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void switchToScene14(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene14.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 }
 
