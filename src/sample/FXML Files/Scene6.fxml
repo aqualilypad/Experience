@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="709.0" prefWidth="924.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="709.0" prefWidth="924.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SportsController">
    <children>
       <MenuBar layoutX="-2.0" prefHeight="27.0" prefWidth="932.0">
         <menus>
@@ -36,14 +36,14 @@
             <Image url="@../../image/Sports2.JPG" />
          </image>
       </ImageView>
-      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene7" prefHeight="66.0" prefWidth="182.0" text="next">
+      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene8" prefHeight="66.0" prefWidth="182.0" text="next">
          <font>
             <Font size="38.0" />
          </font>
       </Button>
-      <Text layoutX="57.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Today, as a member of the highschool basketball team, you compete with someone outside of your school for the first time. The game is tied. With 1 minute left in the game, your team needs one last point to win the game. " wrappingWidth="803.6408081054688">
+      <Text layoutX="57.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seeing your actions, someone on your team shouted angrily at you: “hey! Why did you pass to Tom? He is not on our team!” The player called Tom made a basket with your help, and your team lost because of that point. Sara, also a player on your team, doesn't seem to be able to control her anger: “Tom is wearing bright GREEN! How did you not realize he is not on our team?&quot;" wrappingWidth="803.6408081054688">
          <font>
-            <Font size="29.0" />
+            <Font size="21.0" />
          </font>
       </Text>
    </children>

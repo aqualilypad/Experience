@@ -33,18 +33,17 @@
       </MenuBar>
       <ImageView fitHeight="522.0" fitWidth="937.0" layoutX="-3.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../image/apple3.JPG" />
-         </image>
-      </ImageView>
-      <Text layoutX="36.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Another classmate saw this and mocked you, &quot;ha! Again! Still haven’t learnt the name of COLORS, dummy?&quot; His friends snickered with him." wrappingWidth="857.86474609375">
-         <font>
-            <Font size="33.0" />
-         </font>
-      </Text>
-      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene5" prefHeight="66.0" prefWidth="182.0" text="next">
+            <Image url="@../../image/Sports3.JPG" />
+         </image></ImageView>
+      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene8" prefHeight="66.0" prefWidth="182.0" text="next">
          <font>
             <Font size="38.0" />
          </font>
       </Button>
+      <Text layoutX="57.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“YES!” your teammates shouted, as the ball fell through the basket. Sara, also a player on your team, hugged you out of surprise: “ that pass you made was just perfect!”Other players gathered around you, cheering together for the success. " wrappingWidth="803.6408081054688">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

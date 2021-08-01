@@ -33,18 +33,17 @@
       </MenuBar>
       <ImageView fitHeight="522.0" fitWidth="937.0" layoutX="-3.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../image/apple3.JPG" />
-         </image>
-      </ImageView>
-      <Text layoutX="36.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Another classmate saw this and mocked you, &quot;ha! Again! Still haven’t learnt the name of COLORS, dummy?&quot; His friends snickered with him." wrappingWidth="857.86474609375">
-         <font>
-            <Font size="33.0" />
-         </font>
-      </Text>
-      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene5" prefHeight="66.0" prefWidth="182.0" text="next">
+            <Image url="@../../image/car1.JPG" />
+         </image></ImageView>
+      <Button layoutX="726.0" layoutY="445.0" mnemonicParsing="false" onAction="#switchToScene9" prefHeight="66.0" prefWidth="182.0" text="next">
          <font>
             <Font size="38.0" />
          </font>
       </Button>
+      <Text layoutX="57.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You are about to cross a road. Usually there are people around you so you just follow the crowd. However, you woke up late today because you were too excited about graduation the night before. " wrappingWidth="803.6408081054688">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

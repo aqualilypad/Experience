@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 
-public class Controller {
+public class SportsController {
 
     private Stage stage;
     private Scene scene;
@@ -23,44 +23,42 @@ public class Controller {
     ImageView myImageView;
     Button myButton;
 
-//    Image apple = new Image(getClass().getResourceAsStream("apple3.JPG"));
-//
-//    public void displayImage(){
-//        myImageView.setImage(apple);
-//    }
-    //ignore this
-
-    public void switchToScene1(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene1.fxml"));
+    public void switchToScene5(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene5.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
 
-    public void switchToScene2(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene2.fxml"));
+    public void switchToScene6(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene6.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void switchToScene7(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene7.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void switchToScene8(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene8.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
 
-    public void switchToScene3(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene3.fxml"));
+    public void switchToScene9(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene9.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
-
-    public void switchToScene4(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("FXML Files/Scene4.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-
 }
 
